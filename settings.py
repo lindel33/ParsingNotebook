@@ -1,2 +1,2 @@
-logon_db = ''
+login_db = ''
 pass_db = ''

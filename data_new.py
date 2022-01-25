@@ -1,9 +1,9 @@
 # Запись в таблицы БД
 # name, number_series, text
 import MySQLdb
-from settings import logon_db, pass_db
+from settings import login_db, pass_db
 
-connect = MySQLdb.connect('localhost', logon_db, pass_db, 'repair_site')
+connect = MySQLdb.connect('localhost', login_db, pass_db, 'repair_site')
 cursor = connect.cursor()
 
 

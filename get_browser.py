@@ -10,7 +10,7 @@ s = Service(ChromeDriverManager().install())
 
 def get_browser(site_url: str):
     """
-    Получение браузера в объект browser, страница https://www.instagram.com/
+    Получение браузера в объект browser
     :return: browser
     """
     try:
